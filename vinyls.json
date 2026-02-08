@@ -1,0 +1,37 @@
+[
+  {
+    "titolo": "The Dark Side of the Moon",
+    "artista": "Pink Floyd",
+    "cover_url": "",
+    "anno": 1973,
+    "genere": "Rock"
+  },
+  {
+    "titolo": "Thriller",
+    "artista": "Michael Jackson",
+    "cover_url": "",
+    "anno": 1982,
+    "genere": "Pop"
+  },
+  {
+    "titolo": "Abbey Road",
+    "artista": "The Beatles",
+    "cover_url": "",
+    "anno": 1969,
+    "genere": "Rock"
+  },
+  {
+    "titolo": "Random Access Memories",
+    "artista": "Daft Punk",
+    "cover_url": "",
+    "anno": 2013,
+    "genere": "Electronic"
+  },
+  {
+    "titolo": "A Night at the Opera",
+    "artista": "Queen",
+    "cover_url": "",
+    "anno": 1975,
+    "genere": "Rock"
+  }
+]
