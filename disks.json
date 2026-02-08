@@ -2,35 +2,35 @@
   {
     "titolo": "The Dark Side of the Moon",
     "artista": "Pink Floyd",
-    "cover_url": "https://www.lafeltrinelli.it/images/5054197141478_0_0_0_0_0.jpg",
+    "cover": "https://www.lafeltrinelli.it/images/5054197141478_0_0_0_0_0.jpg",
     "anno": 1973,
     "genere": "Rock"
   },
   {
     "titolo": "Thriller",
     "artista": "Michael Jackson",
-    "cover_url": "https://upload.wikimedia.org/wikipedia/en/8/89/Michael_jackson_thriller_12_inch_single_USA.jpg",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/89/Michael_jackson_thriller_12_inch_single_USA.jpg",
     "anno": 1982,
     "genere": "Pop"
   },
   {
     "titolo": "Abbey Road",
     "artista": "The Beatles",
-    "cover_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Beatles_Abbey_Road_album_cover.jpg/1280px-The_Beatles_Abbey_Road_album_cover.jpg",
+    "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/The_Beatles_Abbey_Road_album_cover.jpg/1280px-The_Beatles_Abbey_Road_album_cover.jpg",
     "anno": 1969,
     "genere": "Rock"
   },
   {
     "titolo": "Random Access Memories",
     "artista": "Daft Punk",
-    "cover_url": "https://www.ibs.it/images/0888837168618_0_0_536_0_75.jpg",
+    "cover": "https://www.ibs.it/images/0888837168618_0_0_536_0_75.jpg",
     "anno": 2013,
     "genere": "Electronic"
   },
   {
     "titolo": "A Night at the Opera",
     "artista": "Queen",
-    "cover_url": "https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png",
     "anno": 1975,
     "genere": "Rock"
   }
