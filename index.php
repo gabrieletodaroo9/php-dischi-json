@@ -12,12 +12,10 @@
 
 <body>
 
-    <header style="height: 90px;" class="bg-success d-flex justify-content-start align-items-center px-4">
-        <img src="./assets/logo-boolify.png" alt="logo" style="height: 50px;">
-    </header>
+   <?php require_once "./utils/header.php" ?>
 
     <main class="bg-dark h-100 py-4">
-        <h1 class="fs-2 text-center text-white text-uppercase py-4 fw-bold">Our disk</h1>
+        <h1 class="fs-2 text-center text-white text-uppercase py-4 fw-bold">My disks</h1>
         <div class="container">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <?php foreach ($disks as $disk) { ?>
@@ -44,13 +42,7 @@
 
     </main>
 
-    <footer class="bg-success">
-
-    <div class="container d-flex justify-content-center align-items-center">
-        <span class="py-2"> © Boolify Tutti i diritti riservati.</span>
-    </div>
-
-    </footer>
+    <?php require_once "./utils/footer.php" ?>
 
 </body>
 
