@@ -12,7 +12,7 @@
 
 <body>
 
-   <?php require_once "./utils/header.php" ?>
+    <?php require_once "./utils/header.php" ?>
 
     <main class="bg-dark h-100 py-4">
         <h1 class="fs-2 text-center text-white text-uppercase py-4 fw-bold">My disks</h1>
@@ -37,7 +37,38 @@
                         </div>
                     </div>
                 <?php } ?>
+
             </div>
+
+            <form action="server.php" method="POST" class="p-4 my-5 border rounded bg-secondary">
+                <h3 class="mb-4 fw-bold text-center text-white text-uppercase">Add new disk</h3>
+                <div class="row g-3 text-white">
+                    <div class="col-md-6 ">
+                        <label class="form-label small fw-bold">Title</label>
+                        <input type="text" class="form-control form-control-sm" name="titolo" placeholder="Es: Bohemian Rhapsody">
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label small fw-bold">Artist</label>
+                        <input type="text" class="form-control form-control-sm" name="artista" placeholder="Es: Queen">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label small fw-bold">Cover Img</label>
+                        <input type="url" class="form-control form-control-sm" name="cover" placeholder="https://link-immagine.com/foto.jpg">
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label small fw-bold">Year</label>
+                        <input type="number" class="form-control form-control-sm" name="anno" placeholder="Es: 2026">
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label small fw-bold">Genre</label>
+                        <input type="text" class="form-control form-control-sm" name="genere" placeholder="Es: Rock">
+                    </div>
+                    <div class="col-12 mt-4 text-end">
+                        <button type="submit" class="btn btn-dark btn-sm px-4">Save the disk</button>
+                    </div>
+                </div>
+            </form>
+
         </div>
 
     </main>
